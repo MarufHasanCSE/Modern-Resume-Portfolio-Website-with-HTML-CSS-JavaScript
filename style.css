@@ -145,4 +145,28 @@ header nav ul li a:hover::after{
     visibility: visible;
 }
 
+.dark-light-btn{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all ease 0.3s;
+
+
+}
+
+.dark-light-btn:hover,
+header ul li a:hover{
+
+    color: var(--main-color);
+}
+
 
