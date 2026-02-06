@@ -98,6 +98,7 @@ header ul li a{
     color: var(--text-color);
     background-color: var(--bg-color);
     position: relative;
+    transition: all ease 0.3s;
 
 }
 
@@ -114,7 +115,34 @@ header ul li a::after{
     border-radius: 5px;
     font-size: 14px;
     font-weight: 500;
- 
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+
+header ul li a::before{
+
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 110%;
+    transform: translateY(-50%);
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 5px 5px 5px 0px;
+    border-color: transparent var(--main-color) transparent transparent;
+      opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+header nav ul li a:hover::before,
+header nav ul li a:hover::after{
+
+    opacity: 1;
+    visibility: visible;
 }
 
 
