@@ -29,3 +29,75 @@ ul{
 }
 
 
+body{
+
+    color: var(--text-color);
+    background-image: linear-gradient(120deg, var(--bg-gradient-start), var(--bg-gradient-end));
+    background-attachment: fixed;
+}
+
+.bg-gradient{
+
+    background: linear-gradient(120deg, var(--gradient-start), var(--gradient-end)) !important;
+}
+
+
+
+.main-container{
+
+    max-width: 1320px;
+    width: 90%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 425px 1fr;
+    grid-gap: 10px;
+    align-items: flex-start;
+}
+
+.menu-profile{
+
+    display: grid;
+    grid-template-columns: 65px 1fr;
+    grid-gap: 10px;
+}
+
+header{
+position: relative;
+z-index: 2;
+}
+
+header, header ul{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+header ul{
+
+    background: linear-gradient(120deg, var(--gradient-start), var(--gradient-end)) !important;
+
+    padding: 10px 5px;
+    border-radius: 30px;
+    display: grid;
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+
+header ul li a{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 1.03rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+
+}
+
+
