@@ -287,3 +287,50 @@ header ul li a:hover{
 
     border-right: 1px solid var(--border-color) ;
 }
+
+.section-container{
+
+    background: linear-gradient(120deg, var(--gradient-start), var(--gradient-end)) !important;
+    padding: 45px 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.all-content{
+
+    display: flex;
+    flex-direction: column;
+    grid-gap: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#about-us{
+
+    border-radius: 0px 30px 0px 0px;
+    padding: 85px 50px;
+    
+}
+
+#about-us h3{
+
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 1.4rem;
+    
+}
+
+#about-us h3 span{
+color: var(--main-color);
+
+}
+
+#about-us #role{
+    opacity: 1;
+    white-space: nowrap;
+    transition: opacity 0.3s ease-out;
+    border-right: 2px solid var(--main-color);
+    display: inline-block;
+    padding-right: 5px;
+
+}
