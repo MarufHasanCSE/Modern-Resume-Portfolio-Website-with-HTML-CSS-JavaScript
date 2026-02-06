@@ -233,3 +233,57 @@ header ul li a:hover{
     font-weight: 600;
     margin: 5px 0px;
 }
+
+.profile-social-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+    
+}
+
+.user-profile-container a{
+
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 1px solid var(--border-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    color: var(--text-color);
+    transition: all ease 0.3s;
+}
+
+.profile-social-container a:hover,
+.user-profile-btns a:hover{
+
+    color: var(--main-color);
+}
+
+.user-profile-btns{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 70px;
+    border-top: 1px solid var(--border-color);
+    width: 100%;
+
+}
+
+.user-profile-btns a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    transition: all ease 0.3s;
+}
+
+.user-profile-btns a:first-child{
+
+    border-right: 1px solid var(--border-color) ;
+}
