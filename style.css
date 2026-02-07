@@ -552,3 +552,59 @@ color: var(--main-color);
     padding: 5px 15px;
     border-radius: 30px;
 }
+
+.plan-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+    margin-top: 40px;
+}
+.plan-box{
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: flex-start;
+}
+
+.plan-name{
+position: absolute;
+top: 20px;
+left: 20px;
+color: var(--bg-color);
+background-color: var(--main-color);
+padding: 5px 20px;
+border-radius: 20px;
+text-transform: uppercase;
+font-size: .8rem;
+font-weight: 500;
+letter-spacing: 1px;
+
+}
+
+.plan-box .price{
+    color: var(--text-color);
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.plan-box a{
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+    padding: 10px 20px;
+    margin: 10px 0px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    transition: all ease 0.3s;
+}
+.plan-box a:hover{
+    color: var(--gradient-end);
+    background-color: var(--main-color);
+    padding: 15px 20px;
+}
