@@ -467,3 +467,22 @@ color: var(--main-color);
     background-color: var(--main-color);
     border-radius: 30px;
 }
+
+.service-message{
+    color: var(--text-color);
+    text-align: center;
+    margin: 35px 0px 20px 0px;
+
+}
+.service-message a{
+    color: var(--main-color);
+    font-weight: 500;
+    text-decoration: underline;
+    transition: all ease 0.3s;
+}
+.service-message a:hover{
+    color: var(--gradient-end);
+    background-color: var(--main-color);
+    padding: 5px 15px;
+    border-radius: 30px;
+}
