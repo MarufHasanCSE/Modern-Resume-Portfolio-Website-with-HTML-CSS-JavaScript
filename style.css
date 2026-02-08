@@ -941,3 +941,32 @@ letter-spacing: 1px;
 .swiper-slide-active{
     opacity: 1;
 }
+.testimonials-message{
+
+    padding: 5px 20px;
+    border-radius: 30px;
+    background-color: var(--border-color);
+    margin: 60px auto 30px auto;
+    text-align: center;
+    color: var(--text-color);
+    font-size: 0.9rem;
+
+}
+.testimonials-message span{
+    color:var(--main-color);
+}
+.client-logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 15px;
+    margin: 15px 0px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.client-logos img{
+    height: 55px;
+    object-fit: contain;
+    object-position: center ;
+}
