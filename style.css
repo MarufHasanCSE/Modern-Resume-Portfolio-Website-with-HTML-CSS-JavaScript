@@ -969,4 +969,30 @@ letter-spacing: 1px;
     height: 55px;
     object-fit: contain;
     object-position: center ;
+} 
+
+#contact{
+    border-radius: 0px 0px 30px 30px;
+}
+
+.contact-box-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
+    grid-gap: 20px;
+
+}
+.contact-box{
+    border-radius: 10px;
+    border: 1px solid var(--border-color);
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-box-icon{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    grid-gap: 20px;
 }
