@@ -784,7 +784,7 @@ letter-spacing: 1px;
     display: flex;
     flex-direction: column;
     width: 100%;
-    grid-gap: 30px;
+    grid-gap: 20px;
     margin-top: 10px;
     padding-left: 10px;
     position: relative;
@@ -812,10 +812,10 @@ letter-spacing: 1px;
     width: 1px;
     height: calc(100% - 50px);
 }
-.edu-work-box-container::after{
+.edu-work-box::after{
     content: '';
     position: absolute;
-    left: -4px;
+    left: -16px;
     top: 25px;
     background-color: var(--text-color);
     width: 10px;
