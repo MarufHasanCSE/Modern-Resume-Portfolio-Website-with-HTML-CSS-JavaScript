@@ -12,7 +12,9 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  </head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+ 
+</head>
   <body>
     <div class="main-container">
         <div class="menu-profile">
@@ -451,10 +453,80 @@
 
                 </div>
         </section>
-       
-</div>
-    </div>
 
+        <section id="testimonials" class="section-container">
+                
+                <div class="section-heading">
+                    <span><i class="fa-regular fa-comment-dots"></i> Testimonials </span>
+                    <h3>Here's what my clients say </h3>
+                </div>
+                <div class="testimonials-container">
+                      <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                       
+                        <div class="swiper-slide">
+                        <div class="testimonials-box bg-gradient">
+                        <div class="testimonials-reviews">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, nesciunt architecto fugiat ex omnis hic impedit? Architecto quasi tempore perspiciatis accusantium excepturi illo, porro illum mollitia itaque corrupti quod eum.</p>
+                        <div class="client-profile">
+                            <div class="client-profile-img">
+
+                                <img src="Images/c1.jpg" alt="client">
+                            </div>
+                            <div class="client-profile-text">
+                                <strong>Clayton Ayers</strong>
+                                <span>CEO</span>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    </div>
+
+                        <div class="swiper-slide">
+                        <div class="testimonials-box bg-gradient">
+                        <div class="testimonials-reviews">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, nesciunt architecto fugiat ex omnis hic impedit? Architecto quasi tempore perspiciatis accusantium excepturi illo, porro illum mollitia itaque corrupti quod eum.</p>
+                        <div class="client-profile">
+                            <div class="client-profile-img">
+
+                                <img src="Images/c1.jpg" alt="client">
+                            </div>
+                            <div class="client-profile-text">
+                                <strong>Clayton Ayers</strong>
+                                <span>CEO</span>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    </div>
+                </div>
+            <div class="swiper-pagination"></div>
+            </div>
+                </div>
+
+        </section>
+       
+        </div>
+</div>
+
+  
+  
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", ()=>{
             const roles = ["Web Developer", "Frontend Developer", "Backend Developer", "Full Stack Developer"];
@@ -513,7 +585,32 @@
 
    });
    
-   
+       var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        1024: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+      },
+    });
    </script>
   </body>
 </html>
