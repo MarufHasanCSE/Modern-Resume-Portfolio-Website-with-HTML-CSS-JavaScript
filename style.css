@@ -763,7 +763,7 @@ letter-spacing: 1px;
 .eud-work-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 0px;
+    grid-gap: 30px;
     margin-top: 50px;
 }
 
@@ -784,7 +784,7 @@ letter-spacing: 1px;
     display: flex;
     flex-direction: column;
     width: 100%;
-    grid-gap: 20px;
+    grid-gap: 30px;
     margin-top: 10px;
     padding-left: 10px;
     position: relative;
