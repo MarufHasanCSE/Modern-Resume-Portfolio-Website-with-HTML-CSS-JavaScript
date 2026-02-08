@@ -13,7 +13,7 @@
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
- 
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
   <body>
     <div class="main-container">
@@ -25,14 +25,14 @@
                     </button>
 
                     <ul>
-                        <li><a href="#" data-label="About"><i class="fa-solid fa-address-book"></i></a></li>
-                        <li><a href="#" data-label="Skills"><i class="fa-solid fa-layer-group"></i></a></li>
-                        <li><a href="#" data-label="Services"><i class="fa-solid fa-screwdriver-wrench"></i></a></li>
-                        <li><a href="#" data-label="Pricing"><i class="fa-solid fa-dollar-sign"></i></i></a></li>
-                        <li><a href="#" data-label="Projects"><i class="fa-solid fa-briefcase"></i></a></li>
-                        <li><a href="#" data-label="Resume"><i class="fa-solid fa-file-lines"></i></a></li>
-                        <li><a href="#" data-label="Testimonials"><i class="fa-regular fa-comment-dots"></i></a></li>
-                        <li><a href="#" data-label="Contact"><i class="fa-solid fa-paper-plane"></i></a></li>
+                        <li><a href="#about-us" data-label="About" class="active"><i class="fa-solid fa-address-book"></i></a></li>
+                        <li><a href="#skill" data-label="Skills"><i class="fa-solid fa-layer-group"></i></a></li>
+                        <li><a href="#services" data-label="Services"><i class="fa-solid fa-screwdriver-wrench"></i></a></li>
+                        <li><a href="#pricing" data-label="Pricing"><i class="fa-solid fa-dollar-sign"></i></i></a></li>
+                        <li><a href="#projects" data-label="Projects"><i class="fa-solid fa-briefcase"></i></a></li>
+                        <li><a href="#edu-work" data-label="Resume"><i class="fa-solid fa-file-lines"></i></a></li>
+                        <li><a href="#testimonials" data-label="Testimonials"><i class="fa-regular fa-comment-dots"></i></a></li>
+                        <li><a href="#contact" data-label="Contact"><i class="fa-solid fa-paper-plane"></i></a></li>
                     </ul>
 
                 </nav>
@@ -71,7 +71,7 @@
         </div>
         <div class="all-content">
 
-            <section id="about-us" class="section-container">
+            <section id="about-us" class="section-container" >
 
                 <h3>Hello,  I'm <span id="role"> Web Developer</span></h3>
                 <h1>Junior Web Developer and <span> Web Designer </span> based in Dhaka Bangladesh</h1>
@@ -94,14 +94,14 @@
 
             </section>
 
-            <section id="skill" class="section-container">
+            <section id="skill" class="section-container" >
             
                 <div class="section-heading">
                     <span><i class="fa-solid fa-layer-group"></i> Technical Skills</span>
                     <h3>Technologies</h3>
                 </div>
-                <div class="skill-box-container">
-                    <div class="skill-box bg-gradient">
+                <div class="skill-box-container" >
+                    <div class="skill-box bg-gradient" data-aos="fade-up">
 
                         <div class="skill-box-content">
                              <i class="fa-brands fa-html5"></i>
@@ -114,7 +114,7 @@
 
                     </div>
                      
-                     <div class="skill-box bg-gradient">
+                     <div class="skill-box bg-gradient" data-aos="fade-up">
 
                         <div class="skill-box-content">
                              <i class="fa-brands fa-css3"></i>
@@ -126,7 +126,7 @@
                         <span class="skill-box-percentage">45%</span>
 
                         </div>
-                                <div class="skill-box bg-gradient">
+                                <div class="skill-box bg-gradient" data-aos="fade-up">
 
                         <div class="skill-box-content">
                              <i class="fa-brands fa-js"></i>
@@ -138,7 +138,7 @@
                         <span class="skill-box-percentage">30%</span>
                     </div>
 
-                                          <div class="skill-box bg-gradient">
+                                          <div class="skill-box bg-gradient" data-aos="fade-up">
 
                         <div class="skill-box-content">
                              <i class="fa-brands fa-css"></i>
@@ -149,7 +149,7 @@
                         </div>
                         <span class="skill-box-percentage">20%</span>
                     </div>
-                                          <div class="skill-box bg-gradient">
+                                          <div class="skill-box bg-gradient" data-aos="fade-up">
 
                         <div class="skill-box-content">
                              <i class="fa-brands fa-react"></i>
@@ -160,7 +160,7 @@
                         </div>
                         <span class="skill-box-percentage">1%</span>
                     </div>
-                        <div class="skill-box bg-gradient">
+                        <div class="skill-box bg-gradient" data-aos="fade-up">
 
                         <div class="skill-box-content">
                              <i class="fa-brands fa-node-js"></i>
@@ -188,7 +188,7 @@
                     <h3>What Services I Provide ?</h3>
                 </div>
                 <div class="service-container">
-                    <div class="service-box bg-gradient">
+                    <div class="service-box bg-gradient" data-aos="fade-up">
                         <div class="service-box-heading">
                             <div class="service-box-icon">
                                 <img src="Images/graphic.png" alt="Web Design Icon">
@@ -201,7 +201,7 @@
                     <p class="service-box-details">Creating visually appealing and user-friendly website designs that align with clients' brand identity and goals.</p>
                     <a href="#">Get Started</a>
                 </div>
-                   <div class="service-box bg-gradient">
+                   <div class="service-box bg-gradient" data-aos="fade-up">
                         <div class="service-box-heading">
                             <div class="service-box-icon">
                                 <img src="Images/graphic.png" alt="Web Design Icon">
@@ -214,7 +214,7 @@
                     <p class="service-box-details">Creating visually appealing and user-friendly website designs that align with clients' brand identity and goals.</p>
                     <a href="#">Get Started</a>
                 </div>
-                   <div class="service-box bg-gradient">
+                   <div class="service-box bg-gradient" data-aos="fade-up">
                         <div class="service-box-heading">
                             <div class="service-box-icon">
                                 <img src="Images/graphic.png" alt="Web Design Icon">
@@ -227,7 +227,7 @@
                     <p class="service-box-details">Creating visually appealing and user-friendly website designs that align with clients' brand identity and goals.</p>
                     <a href="#">Get Started</a>
                 </div>
-                   <div class="service-box bg-gradient">
+                   <div class="service-box bg-gradient" data-aos="fade-up">
                         <div class="service-box-heading">
                             <div class="service-box-icon">
                                 <img src="Images/graphic.png" alt="Web Design Icon">
@@ -256,7 +256,7 @@
                 </div>
 
                 <div class="plan-container">
-                    <div class="plan-box bg-gradient">
+                    <div class="plan-box bg-gradient" data-aos="fade-up">
                         <span class="plan-name">Basic Plan</span>
                         <span class="price">$99</span>
                         <a href="#">Order Now</a>
@@ -267,7 +267,7 @@
                             <li><i class="fa-solid fa-xmark"></i> 24/7 Support</li>
                         </ul>
                 </div>
-                       <div class="plan-box bg-gradient">
+                       <div class="plan-box bg-gradient" data-aos="fade-up">
                         <span class="plan-name">Basic Plan</span>
                         <span class="price">$99</span>
                         <a href="#">Order Now</a>
@@ -278,7 +278,7 @@
                             <li><i class="fa-solid fa-xmark"></i> 24/7 Support</li>
                         </ul>
                 </div>
-                       <div class="plan-box bg-gradient">
+                       <div class="plan-box bg-gradient" data-aos="fade-up">
                         <span class="plan-name">Basic Plan</span>
                         <span class="price">$99</span>
                         <a href="#">Order Now</a>
@@ -289,7 +289,7 @@
                             <li><i class="fa-solid fa-xmark"></i> 24/7 Support</li>
                         </ul>
                 </div>
-                       <div class="plan-box bg-gradient">
+                       <div class="plan-box bg-gradient" data-aos="fade-up">
                         <span class="plan-name">Basic Plan</span>
                         <span class="price">$99</span>
                         <a href="#">Order Now</a>
@@ -318,7 +318,7 @@
                 </ul>
 
                 <div class="project-container">
-                    <a href="#" class="project-box" data-category="ReactJs">
+                    <a href="#" class="project-box" data-category="ReactJs" data-aos="fade-up">
                     <div class="project-box-img">
                         <img src="Images/p1.jpg" alt="Project 1">
                     </div>
@@ -334,8 +334,8 @@
                     </div>
                     </a>
 
-                                 <a href="#" class="project-box" data-category="html">
-                    <div class="project-box-img">
+                                 <a href="#" class="project-box" data-category="html" data-aos="fade-up">
+                    <div class="project-box-img" >
                         <img src="Images/p2.jpg" alt="Project 1">
                     </div>
                     <div class="project-box--text-container">
@@ -349,7 +349,7 @@
                         </div>                    
                     </div>
                     </a>
-                                 <a href="#" class="project-box" data-category="css">
+                                 <a href="#" class="project-box" data-category="css" data-aos="fade-up">
                     <div class="project-box-img">
                         <img src="Images/p3.jpg" alt="Project 1">
                     </div>
@@ -364,7 +364,7 @@
                         </div>                    
                     </div>
                     </a>
-                                 <a href="#" class="project-box" data-category="javascript">
+                                 <a href="#" class="project-box" data-category="javascript" data-aos="fade-up">
                     <div class="project-box-img">
                         <img src="Images/p1.jpg" alt="Project 1">
                     </div>
@@ -383,34 +383,34 @@
 
         </section>
         
-        <section id="eud-work" class="section-container">
+        <section id="edu-work" class="section-container" data-aos="fade-up">
                 
                 <div class="section-heading">
                     <span><i class="fa-regular fa-file-lines"></i> Resume</span>
                     <h3>Work Experience & Education </h3>
                 </div>
 
-                <div class="eud-work-container">
+                <div class="edu-work-container" data-aos="fade-up">
                     <div class="edu-container">
                         <span class="eud-work-label">
                         <i class="fa-solid fa-building-columns"></i>
                         Education
                         </span>
 
-                        <div class="edu-work-box-container">
-                            <div class="edu-work-box">
+                        <div class="edu-work-box-container" >
+                            <div class="edu-work-box" >
                                 <span class="edu-work-year">2021 - 2025</span>
                                 <strong>BSc in Computer Science and Engineering</strong>
                                 <span class="edu-work-location">Carson, USA</span>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, quam eligendi libero assumenda maiores. </p>
                             </div>
-                               <div class="edu-work-box">
+                               <div class="edu-work-box" data-aos="fade-up">
                                 <span class="edu-work-year">2021 - 2025</span>
                                 <strong>BSc in Computer Science and Engineering</strong>
                                 <span class="edu-work-location">Carson, USA</span>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, quam eligendi libero assumenda maiores. </p>
                             </div>
-                               <div class="edu-work-box">
+                               <div class="edu-work-box" data-aos="fade-up">
                                 <span class="edu-work-year">2021 - 2025</span>
                                 <strong>BSc in Computer Science and Engineering</strong>
                                 <span class="edu-work-location">Carson, USA</span>
@@ -428,19 +428,19 @@
                         </span>
                         
                         <div class="edu-work-box-container">
-                            <div class="edu-work-box">
+                            <div class="edu-work-box" data-aos="fade-up">
                                 <span class="edu-work-year">2021 - 2025</span>
                                 <strong>BSc in Computer Science and Engineering</strong>
                                 <span class="edu-work-location">Carson, USA</span>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, quam eligendi libero assumenda maiores. </p>
                             </div>
-                               <div class="edu-work-box">
+                               <div class="edu-work-box" data-aos="fade-up">
                                 <span class="edu-work-year">2021 - 2025</span>
                                 <strong>BSc in Computer Science and Engineering</strong>
                                 <span class="edu-work-location">Carson, USA</span>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, quam eligendi libero assumenda maiores. </p>
                             </div>
-                               <div class="edu-work-box">
+                               <div class="edu-work-box" data-aos="fade-up">
                                 <span class="edu-work-year">2021 - 2025</span>
                                 <strong>BSc in Computer Science and Engineering</strong>
                                 <span class="edu-work-location">Carson, USA</span>
@@ -460,7 +460,7 @@
                     <span><i class="fa-regular fa-comment-dots"></i> Testimonials </span>
                     <h3>Here's what my clients say </h3>
                 </div>
-                <div class="testimonials-container">
+                <div class="testimonials-container" data-aos="fade-up">
                       <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
                        
@@ -517,8 +517,8 @@
             <div class="swiper-pagination"></div>
             </div>
                 </div>
-                <p class="testimonials-message">More than <span>200+ Companies</span> Trusted us Worldwide </p>
-                <div class="client-logos">
+                <p class="testimonials-message" data-aos="fade-up">More than <span>200+ Companies</span> Trusted us Worldwide </p>
+                <div class="client-logos" data-aos="fade-up">
                     <img src="Images/b1.png" alt="logo">
                     <img src="Images/b2.png" alt="logo">
                     <img src="Images/b3.png" alt="logo">
@@ -537,21 +537,21 @@
                 </div>
 
                 <div class="contact-box-container">
-                    <div class="contact-box bg-gredient">
+                    <div class="contact-box bg-gredient" data-aos="fade-up">
                         <div class="contact-box-icon">
                             <i class="fa-solid fa-address-book"></i>
                             <strong>Phone</strong>
                         </div>
                         <span>+880 1521 506867</span>
                     </div>
-                      <div class="contact-box bg-gredient">
+                      <div class="contact-box bg-gredient" data-aos="fade-up">
                         <div class="contact-box-icon">
                             <i class="fa-solid fa-envelope"></i>
                             <strong>Email</strong>
                         </div>
                         <span>marufhasancse21@gmail.com</span>
                     </div>
-                      <div class="contact-box bg-gredient contact-box-location">
+                      <div class="contact-box bg-gredient contact-box-location " data-aos="fade-up">
                         <div class="contact-box-icon">
                             <i class="fa-solid fa-map-location-dot"></i>
                             <strong>Location</strong>
@@ -560,7 +560,7 @@
                     </div>
                 </div>
 
-                <div class="contact-map">
+                <div class="contact-map" data-aos="fade-up">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116833.95338886736!2d90.41968899999999!3d23.7808405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1770586011152!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
         </section>
@@ -571,6 +571,7 @@
   
     <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", ()=>{
             const roles = ["Web Developer", "Frontend Developer", "Backend Developer", "Full Stack Developer"];
@@ -677,8 +678,34 @@
             localStorage.setItem("mode", isLightMode ? "light" : "dark");
         });
 
-        
+        const section = document.querySelectorAll("section");
+        const navLinks = document.querySelectorAll("ul li a");
+
+        function setActiveLink(){
+            let currentSection = "";
+            section.forEach((section) =>{
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.offsetHeight;
+
+                if(Window.scrollY >= sectionTop - sectionHeight / 3){
+                    currentSection = section.getAttribute("id");
+                }
+
+            });
+
+            navLinks.forEach((link)=>{
+                link.classList.remove("active");
+                if(link.getAttribute("href") === `#${currentSection}`){
+
+                    link.classList.add("active")
+                }
+
+            })
+        }
+        window.addEventListener("scroll", setActiveLink);
         });
+        
+  AOS.init();
 
    </script>
   </body>

@@ -3,6 +3,7 @@ margin: 0px;
 padding: 0px;
 box-sizing: border-box;
 font-family: "Poppins";
+scroll-behavior: smooth;
 }
 
 a{
@@ -47,6 +48,7 @@ body{
     color: var(--text-color);
     background-image: linear-gradient(120deg, var(--bg-gradient-start), var(--bg-gradient-end));
     background-attachment: fixed;
+    
 }
 
 .bg-gradient{
@@ -179,7 +181,8 @@ header nav ul li a:hover::after{
 }
 
 .dark-light-btn:hover,
-header ul li a:hover{
+header ul li a:hover,
+header ul li a.active{
 
     color: var(--main-color);
 }
