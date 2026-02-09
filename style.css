@@ -31,7 +31,7 @@ ul{
 
 :root.light-mode{
 
-    --main-color: #78cc6d;
+    --main-color: #6dc960;
     --secondary-color: #5f85DB;
     --text-color: #222222;
     --bg-color: #ebebeb;
@@ -368,6 +368,8 @@ color: var(--main-color);
     padding: 0px 20px;
     border-radius: 30px;
     font-size: 2.8rem;
+    margin-right: 9px;
+    font-weight: 700;
 }
 
 #about-us p{
@@ -382,13 +384,14 @@ color: var(--main-color);
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 40px;
+    grid-gap: 38px;
     margin-top: 30px;
+
 }
 .project-container-box{
     display: flex;
     align-items: center;
-    grid-gap: 20px ;
+    grid-gap: 9px ;
 }
 .project-container-box span{
     color: var(--text-color);
@@ -1012,7 +1015,7 @@ letter-spacing: 1px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    grid-gap: 20px;
+    grid-gap: 10px;
 }
 .contact-box-icon i{
     color: var(--main-color);
@@ -1023,12 +1026,13 @@ letter-spacing: 1px;
     color: var(--text-color);
     opacity: 0.8;
     font-weight: 500;
+    margin-right: 15px;
     font-size: 1rem;
 }
 .contact-box span{
     color: var(--text-color);
     font-size: 0.9rem;
-    text-transform: uppercase;
+    text-transform: lowercase;
 }
 .contact-box-location{
     grid-column: 1/3;
@@ -1045,7 +1049,131 @@ letter-spacing: 1px;
 }
 .contact-map iframe{
     width: 100%;
-    height: 400px;
+    height: 300px;
+    border-radius: 30px;
     object-fit: cover;
     object-position: center;
+}
+
+
+@media(max-width:1170px){
+
+    .main-container{
+        grid-template-columns: 1fr;
+    }
+    .menu-profile{
+        position: static;
+    }
+    .user-profile-img{
+        min-height: 500px;
+    }
+    .menu-profile{
+        grid-template-columns: 1fr;
+    }
+    nav{
+        display: grid;
+        grid-template-columns: 60px 1fr;
+        grid-gap: 10px;
+        align-items: baseline;
+        max-width: 600px;
+        margin: auto;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        overflow-x: auto;
+        padding: 5px;
+        box-shadow: 2px 2px 30px rgba(235, 235, 235, .12);
+    }
+
+    header nav ul li a::after,
+    header nav ul li a::before{
+        display: none;
+    }
+
+    .dark-light-btn{
+        width: 60px;
+        height: 60px;
+        box-shadow: 2px 2px 30px var(--border-color);
+    }
+
+}
+
+@media(max-width:790px){
+    .project-container-about{
+        grid-template-columns: 1fr;
+    }
+    .skill-box-container, 
+    .service-container, 
+    .plan-container,
+    .project-container,
+    .eud-work-container,
+    .contact-box-container{
+        grid-template-columns: 1fr;
+    }
+    .contact-box-location{
+        grid-column: 1/2;
+    }
+}
+
+@media(max-width:520px){
+    .main-container{
+        margin: 20px auto;
+    }
+    .project-container-about{
+        grid-template-columns: 1fr;
+    }
+    .user-profile-img{
+        min-height: auto;
+    }
+    .user-profile-container{
+        padding: 30px;
+    }
+    .section-container,
+    #about-us{
+        padding: 30px 20px;
+    }
+    #about-us h3{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #about-us h3 span{
+        min-height: 34px;
+    }
+     #about-us h1,
+     #about-us h1 span{
+        font-size: 2rem;
+
+     }
+     .project-container-about{
+        grid-gap: 15px;
+     }
+    
+     .project-container-box{
+        display: grid;
+        grid-template-columns: 100px 1fr;
+     }
+      .project-container-box span{
+        font-size: 2.8rem;
+      }
+
+      .section-heading h3{
+        font-size: 1.6rem;
+      }
+
+      .project-box-img{
+        height: 250px;
+      }
+      .client-logos,
+      .contact-box{
+        flex-wrap: wrap;
+        grid-gap: 15px;
+      }
+      .client-logos img{
+        width: auto;
+        height: 35px; 
+      }
+
 }
