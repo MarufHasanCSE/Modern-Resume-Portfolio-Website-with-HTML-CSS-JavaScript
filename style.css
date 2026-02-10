@@ -17,7 +17,7 @@ ul{
 
 :root{
 
-    --main-color: #78cc6d;
+    --main-color: #5fc5fc;
     --secondary-color: #5f85DB;
     --text-color: #f6f4f0;
     --bg-color: #222222;
@@ -31,7 +31,7 @@ ul{
 
 :root.light-mode{
 
-    --main-color: #6dc960;
+    --main-color: #60c975;
     --secondary-color: #5f85DB;
     --text-color: #222222;
     --bg-color: #ebebeb;
